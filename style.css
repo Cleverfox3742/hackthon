@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;  
+    font-family: 'Lora', serif;
+}
+header{
+    filter: blur(0.6px);
+    background-image: url(1.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover
+}
+.text{
+    text-decoration: none;
+    text-decoration-style: none;
+    text-size-adjust: 30px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 45px;
+    width: auto;
+    height: 30pt;
+    margin-right: 60px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1px 3px;
+    border: 1px solid transparent;
+}
+
+ul li a:hover{
+    background-color: pink;
+    color: purple;
+}
+ul li.active a{
+    background-color: pink;
+    color: purple;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.main{
+    max-width: auto;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.title h1{
+    font-size: 100px;
+    font-family: 'Oooh Baby';
+
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 48.5%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid none;
+    padding: 10px 20px;
+    color: rgb(129, 178, 250);
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: pink;
+    color: rgb(241, 22, 241);
+}
